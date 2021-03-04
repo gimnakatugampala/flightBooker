@@ -11045,6 +11045,23 @@ h1 {
   max-width: 500px;
 }
 
+.form-to {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-to .fas {
+  margin: auto;
+  font-size: 30px;
+}
+
+.form-to #from,
+.form-to #to {
+  width: 350px;
+  margin: auto;
+}
+
 @media (max-width: 570px) {
   .info {
     grid-template-columns: 1fr;
@@ -11072,6 +11089,21 @@ h1 {
   .services {
     grid-template-columns: 1fr;
     overflow: hidden;
+  }
+
+  .form-to {
+    display: block;
+  }
+
+  .form-to .fas {
+    margin: 5px;
+    font-size: 10px;
+  }
+
+  .form-to #from,
+  .form-to #to {
+    width: 100%;
+    margin: auto;
   }
 }
 

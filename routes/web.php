@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BookController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -26,3 +27,5 @@ Route::get('/about', [App\Http\Controllers\UtilityController::class, 'about'])->
 Route::get('/services', [App\Http\Controllers\UtilityController::class, 'services'])->name('services');
 Route::get('/contact', [App\Http\Controllers\UtilityController::class, 'contact'])->name('contact');
 Route::post('/contact', [App\Http\Controllers\UtilityController::class, 'store'])->name('contact.store');
+Route::get('/booking', [BookController::class, 'index'])->name('booking');
+Route::post('/booking', [BookController::class, 'store'])->name('booking.store');

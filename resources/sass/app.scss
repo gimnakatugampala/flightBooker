@@ -114,6 +114,23 @@ h1 {
     // }
 }
 
+.form-to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fas {
+        margin: auto;
+        font-size: 30px;
+    }
+
+    #from,
+    #to {
+        width: 350px;
+        margin: auto;
+    }
+}
+
 @media (max-width: 570px) {
     .info {
         grid-template-columns: 1fr;
@@ -141,5 +158,20 @@ h1 {
     .services {
         grid-template-columns: 1fr;
         overflow: hidden;
+    }
+
+    .form-to {
+        display: block;
+
+        .fas {
+            margin: 5px;
+            font-size: 10px;
+        }
+
+        #from,
+        #to {
+            width: 100%;
+            margin: auto;
+        }
     }
 }
