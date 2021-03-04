@@ -66,7 +66,7 @@ footer {
         justify-content: center;
         align-items: center;
 
-        .col-md-6 img {
+        .body-img img {
             height: 100%;
             width: 100%;
             border-radius: 50%;
@@ -76,9 +76,59 @@ footer {
     }
 }
 
+h1 {
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-gap: 15px;
+    box-sizing: border-box;
+
+    h1 {
+        white-space: nowrap;
+    }
+
+    .fas {
+        font-size: 50px;
+        color: rgb(27, 14, 65);
+    }
+}
+
+.contact {
+    text-align: center;
+    background: rgb(196, 207, 185);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 500px;
+
+    // input,
+    // textarea,
+    // button {
+    //     width: 500px;
+    //     margin: auto;
+    // }
+}
+
 @media (max-width: 570px) {
     .info {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .card-body {
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 770px) {
+    .contact {
+        margin: auto;
+        max-width: 250px;
     }
 }

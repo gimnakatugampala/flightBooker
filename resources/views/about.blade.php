@@ -10,10 +10,10 @@
                 </div>
 
                 <div class="card-body">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 body-img">
                         <img src="{{asset('images/akash.jpg')}}">
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, tempore non! Officiis recusandae magnam ad, vel quaerat aspernatur exercitationem porro delectus. Ullam, ad. Amet quod doloremque placeat iusto magni distinctio?
                     </div>
                 </div>
@@ -27,10 +27,10 @@
                 </div>
 
                 <div class="card-body">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 body-img">
                         <img src="{{asset('images/bryan.jpg')}}">
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, tempore non! Officiis recusandae magnam ad, vel quaerat aspernatur exercitationem porro delectus. Ullam, ad. Amet quod doloremque placeat iusto magni distinctio?
                     </div>
                 </div>
@@ -44,10 +44,10 @@
                 </div>
 
                 <div class="card-body">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6  body-img">
                         <img src="{{asset('images/roshan.jpg')}}">
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, tempore non! Officiis recusandae magnam ad, vel quaerat aspernatur exercitationem porro delectus. Ullam, ad. Amet quod doloremque placeat iusto magni distinctio?
                     </div>
                 </div>

@@ -11005,7 +11005,7 @@ footer p {
   align-items: center;
 }
 
-.card .card-body .col-md-6 img {
+.card .card-body .body-img img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -11014,10 +11014,53 @@ footer p {
   border-radius: 1px solid #333;
 }
 
+h1 {
+  text-align: center;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  grid-gap: 15px;
+  box-sizing: border-box;
+}
+
+.services h1 {
+  white-space: nowrap;
+}
+
+.services .fas {
+  font-size: 50px;
+  color: #1b0e41;
+}
+
+.contact {
+  text-align: center;
+  background: #c4cfb9;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
 @media (max-width: 570px) {
   .info {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+
+  .card-body {
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 770px) {
+  .contact {
+    margin: auto;
+    max-width: 250px;
   }
 }
 
