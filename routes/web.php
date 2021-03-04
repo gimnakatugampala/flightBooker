@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UtilityController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -25,7 +27,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/about', [App\Http\Controllers\UtilityController::class, 'about'])->name('about');
 Route::get('/services', [App\Http\Controllers\UtilityController::class, 'services'])->name('services');
+
 Route::get('/contact', [App\Http\Controllers\UtilityController::class, 'contact'])->name('contact');
 Route::post('/contact', [App\Http\Controllers\UtilityController::class, 'store'])->name('contact.store');
+
 Route::get('/booking', [BookController::class, 'index'])->name('booking');
 Route::post('/booking', [BookController::class, 'store'])->name('booking.store');
+
+Route::delete('/booking/{id}', [HomeController::class, 'destroy'])->name('booking.destroy');
+Route::delete('/contact/{id}', [HomeController::class, 'delete'])->name('contact.destroy');

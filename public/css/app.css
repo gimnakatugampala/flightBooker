@@ -11062,6 +11062,11 @@ h1 {
   margin: auto;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 570px) {
   .info {
     grid-template-columns: 1fr;
