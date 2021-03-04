@@ -55,13 +55,13 @@ footer {
     }
 }
 
-.card {
-    .card-header {
+#card {
+    #card-header {
         h3 {
             text-align: center;
         }
     }
-    .card-body {
+    #card-body {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -126,9 +126,20 @@ h1 {
     }
 }
 
+@media (max-width: 970px) {
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 770px) {
     .contact {
         margin: auto;
         max-width: 250px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+        overflow: hidden;
     }
 }

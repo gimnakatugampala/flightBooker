@@ -1903,6 +1903,9 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 var app = new Vue({
   el: '#app'
 });
+setTimeout(function () {
+  document.getElementById('success-msg').style.display = 'none';
+}, 2000);
 
 /***/ }),
 

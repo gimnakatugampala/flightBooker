@@ -10995,17 +10995,17 @@ footer p {
   margin: 0;
 }
 
-.card .card-header h3 {
+#card #card-header h3 {
   text-align: center;
 }
 
-.card .card-body {
+#card #card-body {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.card .card-body .body-img img {
+#card #card-body .body-img img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -11057,10 +11057,21 @@ h1 {
   }
 }
 
+@media (max-width: 970px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 770px) {
   .contact {
     margin: auto;
     max-width: 250px;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+    overflow: hidden;
   }
 }
 

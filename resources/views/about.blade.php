@@ -4,12 +4,12 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8 col-sm-12">
-            <div class="card">
-                <div class="card-header">
+            <div class="card" id="card">
+                <div class="card-header" id="card-header">
                     <h3>Akash Gunathilake</h3>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body" id="card-body">
                     <div class="col-md-6 body-img">
                         <img src="{{asset('images/akash.jpg')}}">
                     </div>
@@ -21,12 +21,12 @@
             <br>
         </div>
         <div class="col-md-8 col-sm-12">
-            <div class="card">
-                <div class="card-header">
+            <div class="card" id="card">
+                <div class="card-header" id="card-header">
                     <h3>Bryan De Silva</h3>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body" id="card-body">
                     <div class="col-md-6 body-img">
                         <img src="{{asset('images/bryan.jpg')}}">
                     </div>
@@ -38,12 +38,12 @@
             <br>
         </div>
         <div class="col-md-8 col-sm-12">
-            <div class="card">
-                <div class="card-header">
+            <div class="card" id="card">
+                <div class="card-header" id="card-header">
                     <h3>Roshan Murugan </h3>
                 </div>
 
-                <div class="card-body">
+                <div class="card-body" id="card-body">
                     <div class="col-md-6  body-img">
                         <img src="{{asset('images/roshan.jpg')}}">
                     </div>

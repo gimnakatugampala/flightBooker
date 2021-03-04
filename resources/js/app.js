@@ -30,3 +30,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+
+setTimeout(function() {
+    document.getElementById('success-msg').style.display = 'none';
+}, 2000)

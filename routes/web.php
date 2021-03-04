@@ -25,3 +25,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/about', [App\Http\Controllers\UtilityController::class, 'about'])->name('about');
 Route::get('/services', [App\Http\Controllers\UtilityController::class, 'services'])->name('services');
 Route::get('/contact', [App\Http\Controllers\UtilityController::class, 'contact'])->name('contact');
+Route::post('/contact', [App\Http\Controllers\UtilityController::class, 'store'])->name('contact.store');

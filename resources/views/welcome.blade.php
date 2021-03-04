@@ -2,6 +2,15 @@
 @section('content')
 
 <div class="container">
+
+    @if(session('message') == '')
+    <div></div>
+    @else
+    <div class="alert alert-success text-center" id="success-msg">
+        <h2>{{session('message')}}</h2>
+    </div>
+    @endif
+
     <div class="showcase-img">
         <h1>Welcome to FilghtBooker</h1>
         <p>Book Your Flight Instantly.With Ready to Go Flights</p>

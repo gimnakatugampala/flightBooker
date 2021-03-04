@@ -96,7 +96,7 @@
         </main>
     </div>
     <footer>
-        <p>Copyrights &copy; FilghtBooker 2021</p>
+        <p>Copyrights &copy; FilghtBooker.Inc 2021</p>
         <p>Gimna Katugampala Production</p>
     </footer>
 </body>
