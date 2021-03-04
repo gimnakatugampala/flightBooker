@@ -55,6 +55,27 @@ footer {
     }
 }
 
+.card {
+    .card-header {
+        h3 {
+            text-align: center;
+        }
+    }
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .col-md-6 img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border-radius: 1px solid #333;
+        }
+    }
+}
+
 @media (max-width: 570px) {
     .info {
         grid-template-columns: 1fr;

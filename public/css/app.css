@@ -10995,6 +10995,25 @@ footer p {
   margin: 0;
 }
 
+.card .card-header h3 {
+  text-align: center;
+}
+
+.card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .card-body .col-md-6 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1px solid #333;
+}
+
 @media (max-width: 570px) {
   .info {
     grid-template-columns: 1fr;
